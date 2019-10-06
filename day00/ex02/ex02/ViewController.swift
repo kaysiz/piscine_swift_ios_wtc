@@ -119,8 +119,17 @@ class ViewController: UIViewController {
         default:
             results = 0.0
         }
-        laNumberShow.text = String(results!)
+        if (floor(results!) == results!) {
+            let intRes:Int64 = Int64(results!);
+            laNumberShow.text = String(intRes);
+        }else{
+            laNumberShow.text = String(results!);
+        }
         newOperation = true
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
 }
 
