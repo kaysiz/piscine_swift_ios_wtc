@@ -1,11 +1,3 @@
-//
-//  Value.swift
-//  ex01
-//
-//  Created by kudakwashe on 2019/09/27.
-//  Copyright © 2019 WeThinkCode. All rights reserved.
-//
-
 enum Value :Int{
     case Ace = 1;
     case Two = 2;
