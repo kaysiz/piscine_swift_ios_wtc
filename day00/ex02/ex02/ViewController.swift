@@ -58,5 +58,69 @@ class ViewController: UIViewController {
     @IBAction func bu9(_ sender: Any) {
         AddNumberToInput(number: "9")
     }
+    
+    var op = "+"
+    var number1:Double?
+    
+    @IBAction func buMul(_ sender: Any) {
+        op = "*"
+        number1 = Double(laNumberShow.text!)
+        newOperation = true
+    }
+    
+    @IBAction func buDiv(_ sender: Any) {
+        op = "/"
+        number1 = Double(laNumberShow.text!)
+        newOperation = true
+    }
+    
+    @IBAction func buSub(_ sender: Any) {
+        op = "-"
+        number1 = Double(laNumberShow.text!)
+        newOperation = true
+    }
+    
+    @IBAction func buAdd(_ sender: Any) {
+        op = "+"
+        number1 = Double(laNumberShow.text!)
+        newOperation = true
+    }
+    
+    @IBAction func buClear(_ sender: Any) {
+        laNumberShow.text = "0"
+        newOperation = true
+        op = "+"
+        number1 = 0.0
+    }
+    
+    
+    @IBAction func buNeg(_ sender: Any) {
+        var textNumber = String(laNumberShow.text!)
+        textNumber = "-" + textNumber
+        laNumberShow.text = textNumber
+    }
+    
+    @IBAction func buEqual(_ sender: Any) {
+        let number2 = Double(laNumberShow.text!)
+        var results:Double?
+        switch op {
+        case "*":
+            results = number1! * number2!
+        case "/":
+            if number2 == 0 {
+                results = 0.0
+            } else {
+                results = number1! / number2!
+            }
+        case "+":
+            results = number1! + number2!
+        case "-":
+            results = number1! - number2!
+        default:
+            results = 0.0
+        }
+        laNumberShow.text = String(results!)
+        newOperation = true
+    }
 }
 
