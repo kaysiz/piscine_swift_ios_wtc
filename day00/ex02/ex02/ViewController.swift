@@ -2,14 +2,14 @@
 //  ViewController.swift
 //  ex02
 //
-//  Created by kudakwashe on 2019/08/22.
+//  Created by kudakwashe on 2019/10/06.
 //  Copyright © 2019 WeThinkCode. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var laNumberShow: UILabel!
     
     override func viewDidLoad() {
@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         var textNumber = String(laNumberShow.text!)
         textNumber = textNumber + number
         laNumberShow.text = textNumber
+        print(number)
     }
     
     @IBAction func bu0(_ sender: Any) {
@@ -53,6 +54,5 @@ class ViewController: UIViewController {
     @IBAction func bu9(_ sender: Any) {
         AddNumberToInput(number: "9")
     }
-    
 }
 
