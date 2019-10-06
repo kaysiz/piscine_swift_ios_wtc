@@ -16,9 +16,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-    
+    var newOperation = true
     func AddNumberToInput(number:String){
         var textNumber = String(laNumberShow.text!)
+        if newOperation {
+            textNumber = ""
+            newOperation = false
+        }
         textNumber = textNumber + number
         laNumberShow.text = textNumber
         print(number)
