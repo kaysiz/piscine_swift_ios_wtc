@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6f0-te-c4S">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -107,46 +107,53 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hah-ag-nBd">
                                 <rect key="frame" x="8" y="96" width="398" height="758"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Person Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="svY-C5-GK5">
-                                        <rect key="frame" x="8" y="8" width="382" height="30"/>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <datePicker contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z2b-U7-kfT">
-                                        <rect key="frame" x="8" y="46" width="382" height="216"/>
-                                        <date key="date" timeIntervalSinceReferenceDate="592170686.74424005">
-                                            <!--2019-10-07 19:51:26 +0000-->
-                                        </date>
-                                    </datePicker>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Note to the dead" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jU3-EQ-5v3">
-                                        <rect key="frame" x="8" y="157" width="382" height="187"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="oEa-G9-JEa">
+                                        <rect key="frame" x="8" y="8" width="382" height="742"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Person Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="svY-C5-GK5">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Z2b-U7-kfT">
+                                                <rect key="frame" x="0.0" y="38" width="382" height="216"/>
+                                                <date key="date" timeIntervalSinceReferenceDate="592170686.74424005">
+                                                    <!--2019-10-07 19:51:26 +0000-->
+                                                </date>
+                                            </datePicker>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" text="Note to the dead" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jU3-EQ-5v3">
+                                                <rect key="frame" x="0.0" y="262" width="382" height="480"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jU3-EQ-5v3" secondAttribute="trailing" id="1Ed-Sl-sJn"/>
+                                            <constraint firstItem="jU3-EQ-5v3" firstAttribute="leading" secondItem="oEa-G9-JEa" secondAttribute="leading" id="1mn-vW-95f"/>
+                                            <constraint firstAttribute="trailing" secondItem="svY-C5-GK5" secondAttribute="trailing" id="2CL-Zf-wNd"/>
+                                            <constraint firstItem="Z2b-U7-kfT" firstAttribute="top" secondItem="svY-C5-GK5" secondAttribute="bottom" constant="8" id="AtL-es-GCF"/>
+                                            <constraint firstItem="svY-C5-GK5" firstAttribute="leading" secondItem="oEa-G9-JEa" secondAttribute="leading" id="EVH-9J-FJs"/>
+                                            <constraint firstAttribute="bottom" secondItem="jU3-EQ-5v3" secondAttribute="bottom" id="K3T-ZY-FI2"/>
+                                            <constraint firstItem="jU3-EQ-5v3" firstAttribute="top" secondItem="Z2b-U7-kfT" secondAttribute="bottom" constant="8" id="KhW-QT-Wee"/>
+                                            <constraint firstItem="Z2b-U7-kfT" firstAttribute="top" secondItem="svY-C5-GK5" secondAttribute="bottom" constant="8" id="Kyn-yn-OjS"/>
+                                            <constraint firstItem="Z2b-U7-kfT" firstAttribute="leading" secondItem="oEa-G9-JEa" secondAttribute="leading" id="MbZ-Vy-Sec"/>
+                                            <constraint firstAttribute="trailing" secondItem="Z2b-U7-kfT" secondAttribute="trailing" id="bDS-bS-XkX"/>
+                                            <constraint firstItem="jU3-EQ-5v3" firstAttribute="top" secondItem="Z2b-U7-kfT" secondAttribute="bottom" constant="8" id="bQT-8t-Sfu"/>
+                                            <constraint firstItem="svY-C5-GK5" firstAttribute="top" secondItem="oEa-G9-JEa" secondAttribute="top" id="dXo-jv-j6h"/>
+                                        </constraints>
+                                    </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="jU3-EQ-5v3" firstAttribute="top" secondItem="svY-C5-GK5" secondAttribute="bottom" constant="8" id="1GB-ti-Lhp"/>
-                                    <constraint firstItem="Z2b-U7-kfT" firstAttribute="leading" secondItem="hah-ag-nBd" secondAttribute="leading" constant="8" id="57g-rU-CbY"/>
-                                    <constraint firstItem="svY-C5-GK5" firstAttribute="top" secondItem="hah-ag-nBd" secondAttribute="top" constant="8" id="80h-VX-QZX"/>
-                                    <constraint firstAttribute="trailing" secondItem="svY-C5-GK5" secondAttribute="trailing" constant="8" id="EeN-vF-qdJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="Z2b-U7-kfT" secondAttribute="trailing" constant="8" id="FME-N0-4Ib"/>
-                                    <constraint firstItem="Z2b-U7-kfT" firstAttribute="top" secondItem="svY-C5-GK5" secondAttribute="bottom" constant="8" id="GU2-i6-xcz"/>
-                                    <constraint firstAttribute="bottom" secondItem="Z2b-U7-kfT" secondAttribute="bottom" constant="8" id="Gev-Lg-U1e"/>
-                                    <constraint firstItem="jU3-EQ-5v3" firstAttribute="leading" secondItem="hah-ag-nBd" secondAttribute="leading" constant="8" id="K5r-7f-yeR"/>
-                                    <constraint firstItem="Z2b-U7-kfT" firstAttribute="top" secondItem="svY-C5-GK5" secondAttribute="bottom" constant="8" id="V78-ub-M42"/>
-                                    <constraint firstAttribute="trailing" secondItem="jU3-EQ-5v3" secondAttribute="trailing" constant="8" id="XAe-x9-nae"/>
-                                    <constraint firstItem="svY-C5-GK5" firstAttribute="leading" secondItem="hah-ag-nBd" secondAttribute="leading" constant="8" id="aXb-j2-BOd"/>
                                     <constraint firstAttribute="width" constant="398" id="cO8-Ci-EHd"/>
                                     <constraint firstAttribute="height" constant="758" id="kIu-Wd-zAl"/>
                                     <constraint firstAttribute="width" secondItem="hah-ag-nBd" secondAttribute="height" multiplier="199:379" id="stH-gr-2TL"/>
-                                    <constraint firstAttribute="bottom" secondItem="jU3-EQ-5v3" secondAttribute="bottom" constant="8" id="wpD-9C-E4h"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.055354535579681396" green="0.051066569983959198" blue="0.033533006906509399" alpha="0.40999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="sld-cl-dQk" firstAttribute="bottom" secondItem="hah-ag-nBd" secondAttribute="bottom" constant="8" id="3AG-xD-TJj"/>
                             <constraint firstItem="hah-ag-nBd" firstAttribute="leading" secondItem="sld-cl-dQk" secondAttribute="leading" constant="8" id="4h1-Qb-yya"/>
@@ -202,6 +209,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gFn-5A-5a6"/>
+        <segue reference="aom-9Q-GJk"/>
     </inferredMetricsTieBreakers>
 </document>
