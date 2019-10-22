@@ -1,8 +1,8 @@
 //
 //  Shape.swift
-//  day06
+//  MotionCube
 //
-//  Created by kudakwashe on 2019/10/20.
+//  Created by kudakwashe on 2019/10/22.
 //  Copyright © 2019 WeThinkCode. All rights reserved.
 //
 
@@ -21,7 +21,6 @@ class Shape: UIView {
             shapeType = "square"
         }
         backgroundColor = .random()
-        print(shapeType)
     }
     
     required init?(coder aDecoder: NSCoder) {

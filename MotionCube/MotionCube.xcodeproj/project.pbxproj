@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F8373C6235CD77F0073DAA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8373C5235CD77F0073DAA6 /* AppDelegate.swift */; };
-		1F8373C8235CD77F0073DAA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8373C7235CD77F0073DAA6 /* ViewController.swift */; };
-		1F8373CB235CD77F0073DAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8373C9235CD77F0073DAA6 /* Main.storyboard */; };
-		1F8373CD235CD7800073DAA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F8373CC235CD7800073DAA6 /* Assets.xcassets */; };
-		1F8373D0235CD7800073DAA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F8373CE235CD7800073DAA6 /* LaunchScreen.storyboard */; };
-		1F8373D8235CD7E20073DAA6 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8373D7235CD7E20073DAA6 /* Shape.swift */; };
+		1FCCBEA4235EE35100CDF33F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCBEA3235EE35100CDF33F /* AppDelegate.swift */; };
+		1FCCBEA6235EE35100CDF33F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCBEA5235EE35100CDF33F /* ViewController.swift */; };
+		1FCCBEA9235EE35100CDF33F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCBEA7235EE35100CDF33F /* Main.storyboard */; };
+		1FCCBEAB235EE35200CDF33F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCBEAA235EE35200CDF33F /* Assets.xcassets */; };
+		1FCCBEAE235EE35200CDF33F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FCCBEAC235EE35200CDF33F /* LaunchScreen.storyboard */; };
+		1FCCBEB6235EE3BC00CDF33F /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCCBEB5235EE3BC00CDF33F /* Shape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F8373C2235CD77F0073DAA6 /* day06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = day06.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F8373C5235CD77F0073DAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F8373C7235CD77F0073DAA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F8373CA235CD77F0073DAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1F8373CC235CD7800073DAA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1F8373CF235CD7800073DAA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1F8373D1235CD7800073DAA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1F8373D7235CD7E20073DAA6 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		1FCCBEA0235EE35100CDF33F /* MotionCube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MotionCube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FCCBEA3235EE35100CDF33F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FCCBEA5235EE35100CDF33F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FCCBEA8235EE35100CDF33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FCCBEAA235EE35200CDF33F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FCCBEAD235EE35200CDF33F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FCCBEAF235EE35200CDF33F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FCCBEB5235EE3BC00CDF33F /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1F8373BF235CD77F0073DAA6 /* Frameworks */ = {
+		1FCCBE9D235EE35100CDF33F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F8373B9235CD77F0073DAA6 = {
+		1FCCBE97235EE35100CDF33F = {
 			isa = PBXGroup;
 			children = (
-				1F8373C4235CD77F0073DAA6 /* day06 */,
-				1F8373C3235CD77F0073DAA6 /* Products */,
+				1FCCBEA2235EE35100CDF33F /* MotionCube */,
+				1FCCBEA1235EE35100CDF33F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1F8373C3235CD77F0073DAA6 /* Products */ = {
+		1FCCBEA1235EE35100CDF33F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F8373C2235CD77F0073DAA6 /* day06.app */,
+				1FCCBEA0235EE35100CDF33F /* MotionCube.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F8373C4235CD77F0073DAA6 /* day06 */ = {
+		1FCCBEA2235EE35100CDF33F /* MotionCube */ = {
 			isa = PBXGroup;
 			children = (
-				1F8373C5235CD77F0073DAA6 /* AppDelegate.swift */,
-				1F8373C7235CD77F0073DAA6 /* ViewController.swift */,
-				1F8373C9235CD77F0073DAA6 /* Main.storyboard */,
-				1F8373CC235CD7800073DAA6 /* Assets.xcassets */,
-				1F8373CE235CD7800073DAA6 /* LaunchScreen.storyboard */,
-				1F8373D1235CD7800073DAA6 /* Info.plist */,
-				1F8373D7235CD7E20073DAA6 /* Shape.swift */,
+				1FCCBEB5235EE3BC00CDF33F /* Shape.swift */,
+				1FCCBEA3235EE35100CDF33F /* AppDelegate.swift */,
+				1FCCBEA5235EE35100CDF33F /* ViewController.swift */,
+				1FCCBEA7235EE35100CDF33F /* Main.storyboard */,
+				1FCCBEAA235EE35200CDF33F /* Assets.xcassets */,
+				1FCCBEAC235EE35200CDF33F /* LaunchScreen.storyboard */,
+				1FCCBEAF235EE35200CDF33F /* Info.plist */,
 			);
-			path = day06;
+			path = MotionCube;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F8373C1235CD77F0073DAA6 /* day06 */ = {
+		1FCCBE9F235EE35100CDF33F /* MotionCube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F8373D4235CD7800073DAA6 /* Build configuration list for PBXNativeTarget "day06" */;
+			buildConfigurationList = 1FCCBEB2235EE35200CDF33F /* Build configuration list for PBXNativeTarget "MotionCube" */;
 			buildPhases = (
-				1F8373BE235CD77F0073DAA6 /* Sources */,
-				1F8373BF235CD77F0073DAA6 /* Frameworks */,
-				1F8373C0235CD77F0073DAA6 /* Resources */,
+				1FCCBE9C235EE35100CDF33F /* Sources */,
+				1FCCBE9D235EE35100CDF33F /* Frameworks */,
+				1FCCBE9E235EE35100CDF33F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = day06;
-			productName = day06;
-			productReference = 1F8373C2235CD77F0073DAA6 /* day06.app */;
+			name = MotionCube;
+			productName = MotionCube;
+			productReference = 1FCCBEA0235EE35100CDF33F /* MotionCube.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1F8373BA235CD77F0073DAA6 /* Project object */ = {
+		1FCCBE98235EE35100CDF33F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = WeThinkCode;
 				TargetAttributes = {
-					1F8373C1235CD77F0073DAA6 = {
+					1FCCBE9F235EE35100CDF33F = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 1F8373BD235CD77F0073DAA6 /* Build configuration list for PBXProject "day06" */;
+			buildConfigurationList = 1FCCBE9B235EE35100CDF33F /* Build configuration list for PBXProject "MotionCube" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1F8373B9235CD77F0073DAA6;
-			productRefGroup = 1F8373C3235CD77F0073DAA6 /* Products */;
+			mainGroup = 1FCCBE97235EE35100CDF33F;
+			productRefGroup = 1FCCBEA1235EE35100CDF33F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F8373C1235CD77F0073DAA6 /* day06 */,
+				1FCCBE9F235EE35100CDF33F /* MotionCube */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F8373C0235CD77F0073DAA6 /* Resources */ = {
+		1FCCBE9E235EE35100CDF33F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8373D0235CD7800073DAA6 /* LaunchScreen.storyboard in Resources */,
-				1F8373CD235CD7800073DAA6 /* Assets.xcassets in Resources */,
-				1F8373CB235CD77F0073DAA6 /* Main.storyboard in Resources */,
+				1FCCBEAE235EE35200CDF33F /* LaunchScreen.storyboard in Resources */,
+				1FCCBEAB235EE35200CDF33F /* Assets.xcassets in Resources */,
+				1FCCBEA9235EE35100CDF33F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1F8373BE235CD77F0073DAA6 /* Sources */ = {
+		1FCCBE9C235EE35100CDF33F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F8373C8235CD77F0073DAA6 /* ViewController.swift in Sources */,
-				1F8373D8235CD7E20073DAA6 /* Shape.swift in Sources */,
-				1F8373C6235CD77F0073DAA6 /* AppDelegate.swift in Sources */,
+				1FCCBEA6235EE35100CDF33F /* ViewController.swift in Sources */,
+				1FCCBEB6235EE3BC00CDF33F /* Shape.swift in Sources */,
+				1FCCBEA4235EE35100CDF33F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1F8373C9235CD77F0073DAA6 /* Main.storyboard */ = {
+		1FCCBEA7235EE35100CDF33F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F8373CA235CD77F0073DAA6 /* Base */,
+				1FCCBEA8235EE35100CDF33F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1F8373CE235CD7800073DAA6 /* LaunchScreen.storyboard */ = {
+		1FCCBEAC235EE35200CDF33F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F8373CF235CD7800073DAA6 /* Base */,
+				1FCCBEAD235EE35200CDF33F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1F8373D2235CD7800073DAA6 /* Debug */ = {
+		1FCCBEB0235EE35200CDF33F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		1F8373D3235CD7800073DAA6 /* Release */ = {
+		1FCCBEB1235EE35200CDF33F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,36 +282,36 @@
 			};
 			name = Release;
 		};
-		1F8373D5235CD7800073DAA6 /* Debug */ = {
+		1FCCBEB3235EE35200CDF33F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DJ677UW75;
-				INFOPLIST_FILE = day06/Info.plist;
+				INFOPLIST_FILE = MotionCube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = za.co.wethinkcode.student.ksiziva.day06;
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.wethinkcode.student.ksiziva.MotionCube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1F8373D6235CD7800073DAA6 /* Release */ = {
+		1FCCBEB4235EE35200CDF33F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2DJ677UW75;
-				INFOPLIST_FILE = day06/Info.plist;
+				INFOPLIST_FILE = MotionCube/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = za.co.wethinkcode.student.ksiziva.day06;
+				PRODUCT_BUNDLE_IDENTIFIER = za.co.wethinkcode.student.ksiziva.MotionCube;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,25 +321,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F8373BD235CD77F0073DAA6 /* Build configuration list for PBXProject "day06" */ = {
+		1FCCBE9B235EE35100CDF33F /* Build configuration list for PBXProject "MotionCube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F8373D2235CD7800073DAA6 /* Debug */,
-				1F8373D3235CD7800073DAA6 /* Release */,
+				1FCCBEB0235EE35200CDF33F /* Debug */,
+				1FCCBEB1235EE35200CDF33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F8373D4235CD7800073DAA6 /* Build configuration list for PBXNativeTarget "day06" */ = {
+		1FCCBEB2235EE35200CDF33F /* Build configuration list for PBXNativeTarget "MotionCube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F8373D5235CD7800073DAA6 /* Debug */,
-				1F8373D6235CD7800073DAA6 /* Release */,
+				1FCCBEB3235EE35200CDF33F /* Debug */,
+				1FCCBEB4235EE35200CDF33F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1F8373BA235CD77F0073DAA6 /* Project object */;
+	rootObject = 1FCCBE98235EE35100CDF33F /* Project object */;
 }

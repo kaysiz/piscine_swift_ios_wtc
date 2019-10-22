@@ -13,35 +13,42 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="day06" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MotionCube" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="YfS-9E-exg" appends="YES" id="hNa-kl-DiK"/>
+                            <outletCollection property="gestureRecognizers" destination="vJN-pk-3KJ" appends="YES" id="say-Bp-vHm"/>
+                            <outletCollection property="gestureRecognizers" destination="I5b-JW-FF8" appends="YES" id="dHL-0U-gcA"/>
+                            <outletCollection property="gestureRecognizers" destination="XBf-M6-jBz" appends="YES" id="4AL-wt-7XE"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="5fL-Xa-ZSX">
+                <panGestureRecognizer minimumNumberOfTouches="1" id="YfS-9E-exg">
                     <connections>
-                        <action selector="btnTap:" destination="BYZ-38-t0r" id="vab-Ez-Z8u"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="IvR-dq-6fS">
-                    <connections>
-                        <action selector="btnPan:" destination="BYZ-38-t0r" id="SDR-wo-jiq"/>
+                        <action selector="btnPan:" destination="BYZ-38-t0r" id="DT6-wk-aqb"/>
                     </connections>
                 </panGestureRecognizer>
-                <pinchGestureRecognizer id="cMf-Ms-meW">
+                <rotationGestureRecognizer id="vJN-pk-3KJ">
                     <connections>
-                        <action selector="btnPinch:" destination="BYZ-38-t0r" id="pvf-h9-Wwq"/>
-                    </connections>
-                </pinchGestureRecognizer>
-                <rotationGestureRecognizer id="TAR-i6-uAW">
-                    <connections>
-                        <action selector="btnRotate:" destination="BYZ-38-t0r" id="768-fu-nZx"/>
+                        <action selector="btnRotate:" destination="BYZ-38-t0r" id="NkK-t5-eLm"/>
                     </connections>
                 </rotationGestureRecognizer>
+                <pinchGestureRecognizer id="I5b-JW-FF8">
+                    <connections>
+                        <action selector="btnPinch:" destination="BYZ-38-t0r" id="Ui1-xY-aPc"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <tapGestureRecognizer id="XBf-M6-jBz">
+                    <connections>
+                        <action selector="btnTap:" destination="BYZ-38-t0r" id="zbo-XJ-XOs"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
